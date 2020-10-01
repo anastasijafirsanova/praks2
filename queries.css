@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1250px) {
+  .container {
+    width: 95%;
+    background-color: bisque;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info__left,
+  .contact-info__right {
+    width: 75%;
+  }
+
+  .contact-info__left {
+    margin-bottom: 50px;
+  }
+}
